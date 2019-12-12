@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:57277",
-      "sslPort": 44314
+      "applicationUrl": "http://localhost:60683",
+      "sslPort": 44308
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -17,14 +17,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SenderMQ": {
+    "ReceverMQ": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger/index.html",
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5000"
+      "applicationUrl": "https://localhost:5001"
     },
     "Docker": {
       "commandName": "Docker",
@@ -32,11 +32,11 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/values",
       "environmentVariables": {
         "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "44315"
+        "ASPNETCORE_HTTPS_PORT": "44309"
       },
-      "httpPort": 57278,
+      "httpPort": 60684,
       "useSSL": true,
-      "sslPort": 44315
+      "sslPort": 44309
     }
   }
 }

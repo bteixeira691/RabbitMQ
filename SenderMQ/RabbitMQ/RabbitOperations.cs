@@ -18,8 +18,7 @@ namespace SenderMQ.RabbitMQ
             _objectPool = new DefaultObjectPool<IModel>(objectPolicy, Environment.ProcessorCount * 2);
         }
 
-        public void Publish<T>(T message, string exchangeType, string routeKey)
-            where T : class
+        public void Publish<T>(T message, string routeKey) where T : class
         {
             if (message == null)
                 return;

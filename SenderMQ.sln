@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderMQ", "SenderMQ\SenderMQ.csproj", "{33FE4B76-395D-4A3C-A871-FBCB677C31DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SenderMQ", "SenderMQ\SenderMQ.csproj", "{33FE4B76-395D-4A3C-A871-FBCB677C31DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceverMQ", "ReceverMQ\ReceverMQ.csproj", "{FEE59727-92C1-48BF-B454-301F810254E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{33FE4B76-395D-4A3C-A871-FBCB677C31DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33FE4B76-395D-4A3C-A871-FBCB677C31DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33FE4B76-395D-4A3C-A871-FBCB677C31DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE59727-92C1-48BF-B454-301F810254E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE59727-92C1-48BF-B454-301F810254E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE59727-92C1-48BF-B454-301F810254E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE59727-92C1-48BF-B454-301F810254E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
